@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "if you see it, run away",
+    "description": "he's our natural enemy",
+    "category": "enemy",
+    "image": "adler.jpg",
+    "name": "adler",
+    "is_new": true,
+    "created_at": "2023-05-19"
+  },
+  {
+    "id": "2",
+    "title": "my sweet friend",
+    "description": "he's really good at camouflage",
+    "category": "friend",
+    "image": "chameleon.jpg",
+    "name": "chameleon",
+    "is_new": true,
+    "created_at": "2023-04-19"
+  },
+  {
+    "id": "3",
+    "title": "be careful, he's very fast",
+    "description": "if you see him, hide right now",
+    "category": "enemy",
+    "image": "eagle.jpg",
+    "name": "eagle",
+    "is_new": true,
+    "created_at": "2023-04-11"
+  },
+  {
+    "id": "4",
+    "title": "my dashing brother",
+    "description": "he is very brave and good at fighting",
+    "category": "family",
+    "image": "gad.jpg",
+    "name": "gad",
+    "is_new": true,
+    "created_at": "2023-03-01"
+  },
+  {
+    "id": "5",
+    "title": "my pathetic cousin",
+    "description": "he's always busy running away",
+    "category": "family",
+    "image": "gecko.jpg",
+    "name": "gecko",
+    "is_new": false,
+    "created_at": "2023-02-21"
+  },
+  {
+    "id": "6",
+    "title": "my life partner",
+    "description": "she's always on my side",
+    "category": "family",
+    "image": "gf.jpg",
+    "name": "gf",
+    "is_new": false,
+    "created_at": "2023-1-15"
+  },
+  {
+    "id": "7",
+    "title": "he's slow but precise",
+    "description": "unrivaled in viability",
+    "category": "friend",
+    "image": "iguana.jpg",
+    "name": "iguana",
+    "is_new": false,
+    "created_at": "2022-12-19"
+  },
+  {
+    "id": "8",
+    "title": "he's a celebrity",
+    "description": "he made a lot of money by appearing on TV",
+    "category": "friend",
+    "image": "oriental-garden-lizard.jpg",
+    "name": "oriental-garden-lizard",
+    "is_new": false,
+    "created_at": "2022-11-15"
+  },
+  {
+    "id": "9",
+    "title": "natural enemy of the night",
+    "description": "you have to watch out for him at night",
+    "category": "enemy",
+    "image": "owl.jpg",
+    "name": "owl",
+    "is_new": false,
+    "created_at": "2022-10-30"
+  },
+  {
+    "id": "10",
+    "title": "my childhood friend",
+    "description": "when he was a kid, he used to draw maps on blankets",
+    "category": "friend",
+    "image": "reptile.jpg",
+    "name": "reptile",
+    "is_new": false,
+    "created_at": "2023-08-26"
+  }
+]
