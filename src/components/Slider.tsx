@@ -52,8 +52,8 @@ export default function Slider({ oldPosts }: Props) {
           }) => {
             return (
               <div
-                key={cV?.id}
-                className='basis-80 mr-2 border border-slate-200 overflow-hidden rounded-md select-none'
+                key={cV.id}
+                className='w-4/5 mr-2 border border-slate-200 overflow-hidden rounded-md select-none'
               >
                 <Link href={`/posts/${cV.id}`}>
                   <Image
