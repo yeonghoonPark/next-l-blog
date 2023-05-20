@@ -1,18 +1,12 @@
-import MyProfile from "@/components/MyProfile";
-import { getNewPost, getOldPost } from "@/service/posts";
-
 import FeaturedPosts from "@/components/FeaturedPosts";
-import YouMayLike from "@/components/YouMayLike";
+import Hero from "@/components/Hero";
 
 export default async function HomePage() {
-  const newPosts = await getNewPost();
-  const oldPosts = await getOldPost();
-
   return (
-    <div className=''>
-      <MyProfile />
-      <FeaturedPosts newPosts={newPosts} />
-      <YouMayLike oldPosts={oldPosts} />
-    </div>
+    <>
+      <Hero />
+      {/* @ts-expect-error Server Component */}
+      <FeaturedPosts />
+    </>
   );
 }
