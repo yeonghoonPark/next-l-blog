@@ -25,3 +25,8 @@ export const getNewPosts = async (): Promise<Post[]> => {
   const posts = await getAllPosts();
   return posts.filter((cV) => cV.is_new);
 };
+
+export const getOldPosts = async (): Promise<Post[]> => {
+  const posts = await getAllPosts();
+  return posts.filter((cV) => !cV.is_new);
+};

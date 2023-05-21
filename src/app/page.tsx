@@ -1,5 +1,6 @@
 import FeaturedPosts from "@/components/FeaturedPosts";
 import Hero from "@/components/Hero";
+import YouMayLike from "@/components/YouMayLike";
 
 export default async function HomePage() {
   return (
@@ -7,6 +8,9 @@ export default async function HomePage() {
       <Hero />
       {/* @ts-expect-error Server Component */}
       <FeaturedPosts />
+
+      {/* @ts-expect-error Server Component */}
+      <YouMayLike />
     </>
   );
 }
