@@ -30,3 +30,8 @@ export const getOldPosts = async (): Promise<Post[]> => {
   const posts = await getAllPosts();
   return posts.filter((cV) => !cV.is_new);
 };
+
+export const getPost = async (slug: string): Promise<Post | undefined> => {
+  const posts = await getAllPosts();
+  return posts.find((cV) => cV.id === slug);
+};
